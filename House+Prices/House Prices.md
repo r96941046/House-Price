@@ -4,7 +4,7 @@
 ## Kaggle Practice Skills
 
     - Creative feature engineering 
-    - Advanced regression techniques like random forest and gradient boosting
+    - Advanced regression techniques
 
 Data source
     - https://www.kaggle.com/c/house-prices-advanced-regression-techniques#evaluation
@@ -18,20 +18,20 @@ Feature engineering: select meaningful features (reduce overfitting)
     1. L1 regularization
         - Supported Models:
             - Logistic Regression
-    2. Feature selection
-        - Sequential Backward Selection (SBS), not supported in sklearn, maybe use [f_regression](http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_regression.html)
-        - [sklearn supports](http://scikit-learn.org/stable/modules/feature_selection.html):
-            - Removing low variance models
-            - Univariate feature selection
-            - Recursive feature elimination
-            - Feature selection using SelectFromModel
-                - Random forest
+            
+    2. Feature selection(http://scikit-learn.org/stable/modules/feature_selection.html)
+        - Feature selection using SelectFromModel
+            - Random forest
+        - Forward selection algorithm (in Univariate feature selection)
+        - Recursive feature elimination or Sequential Backward Selection (SBS)
+        - Removing low variance models
+
     3. Feature extraction
-            - [Linear, Unsupervised] Principal component analysis (PCA)
-            - [Linear, Supervised] Linear Discriminant Analysis (LDA)
-            - Nonlinear dimensionality reduction
-                - kernel principal component analysis (kernel PCA)
-                - more advanced in sklearn: http://scikit-learn.org/stable/modules/manifold.html
+        - [Linear, Unsupervised] Principal component analysis (PCA)
+        - [Linear, Supervised] Linear Discriminant Analysis (LDA)
+        - Nonlinear dimensionality reduction
+            - kernel principal component analysis (kernel PCA)
+            - more advanced in sklearn: http://scikit-learn.org/stable/modules/manifold.html
 
 
 # Let's start
@@ -1105,7 +1105,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1497f9048>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11b6afac8>
 
 
 
@@ -1143,7 +1143,7 @@ sns.factorplot(
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x141d90e48>
+    <seaborn.axisgrid.FacetGrid at 0x11b4b4b00>
 
 
 
@@ -1184,7 +1184,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14ec76550>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11b9f3208>
 
 
 
@@ -1217,7 +1217,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14f6e72e8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11b7e3eb8>
 
 
 
@@ -1250,7 +1250,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14f9c1eb8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11bcd1b00>
 
 
 
@@ -1284,7 +1284,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14fab2e48>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11f527160>
 
 
 
@@ -1326,7 +1326,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14fb90668>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11f71e1d0>
 
 
 
@@ -1373,7 +1373,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14fc722b0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11f91f048>
 
 
 
@@ -1427,7 +1427,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x14fd55320>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11fb3af98>
 
 
 
@@ -1500,7 +1500,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1509507f0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x11fe9a198>
 
 
 
@@ -1527,7 +1527,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x150cc7518>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1200df320>
 
 
 
@@ -1561,7 +1561,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x150f13cc0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12032de48>
 
 
 
@@ -1616,7 +1616,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x151136828>
+    <matplotlib.axes._subplots.AxesSubplot at 0x120550860>
 
 
 
@@ -1663,7 +1663,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x151386d68>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1207a2c18>
 
 
 
@@ -1710,7 +1710,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1515b4518>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1209b0cc0>
 
 
 
@@ -1765,7 +1765,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1517fcc88>
+    <matplotlib.axes._subplots.AxesSubplot at 0x120c00400>
 
 
 
@@ -1799,7 +1799,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x151abb1d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x120ebbac8>
 
 
 
@@ -1925,7 +1925,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x151cc91d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1210cb860>
 
 
 
@@ -1952,7 +1952,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x151db5780>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1212b0128>
 
 
 
@@ -1996,7 +1996,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x151fca7f0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1214d1438>
 
 
 
@@ -2043,7 +2043,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x152305eb8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1216ef6d8>
 
 
 
@@ -2070,7 +2070,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1523faef0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1219034e0>
 
 
 
@@ -2125,7 +2125,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x152728518>
+    <matplotlib.axes._subplots.AxesSubplot at 0x121b0cb38>
 
 
 
@@ -2177,7 +2177,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x152933748>
+    <matplotlib.axes._subplots.AxesSubplot at 0x121d19da0>
 
 
 
@@ -2204,7 +2204,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x152b5b1d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x121f3e898>
 
 
 
@@ -2274,7 +2274,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x152d82438>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12202d2e8>
 
 
 
@@ -2325,7 +2325,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x152fbc048>
+    <matplotlib.axes._subplots.AxesSubplot at 0x122370128>
 
 
 
@@ -2384,7 +2384,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1531c7828>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12258e080>
 
 
 
@@ -2435,7 +2435,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1533eacf8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1227ae898>
 
 
 
@@ -2462,7 +2462,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1536014e0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1229c6d30>
 
 
 
@@ -2495,7 +2495,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x153803940>
+    <matplotlib.axes._subplots.AxesSubplot at 0x122aad400>
 
 
 
@@ -2550,7 +2550,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x153a200f0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x122dddb70>
 
 
 
@@ -2601,7 +2601,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x153c5a940>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12301e048>
 
 
 
@@ -2656,7 +2656,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x153e80dd8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x123218b00>
 
 
 
@@ -2707,7 +2707,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1540a98d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x123440438>
 
 
 
@@ -2776,7 +2776,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1542a9550>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12363f0b8>
 
 
 
@@ -2803,7 +2803,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1544c1748>
+    <matplotlib.axes._subplots.AxesSubplot at 0x123859668>
 
 
 
@@ -2860,7 +2860,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1546d5e80>
+    <matplotlib.axes._subplots.AxesSubplot at 0x123a6ceb8>
 
 
 
@@ -2902,7 +2902,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1548d5f60>
+    <matplotlib.axes._subplots.AxesSubplot at 0x123c74128>
 
 
 
@@ -2954,7 +2954,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x154adcd68>
+    <matplotlib.axes._subplots.AxesSubplot at 0x123e78e48>
 
 
 
@@ -2988,7 +2988,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x154cef668>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1240888d0>
 
 
 
@@ -3023,7 +3023,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x154efeb00>
+    <matplotlib.axes._subplots.AxesSubplot at 0x124296b38>
 
 
 
@@ -3071,7 +3071,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x15515b400>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1244f7cc0>
 
 
 
@@ -3297,7 +3297,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'RL': 3, 'FV': 4, 'C (all)': 0, 'RM': 1, 'RH'...</td>
+      <td>{'RM': 1, 'FV': 4, 'RH': 2, 'RL': 3, 'C (all)'...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3396,7 +3396,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>False</td>
-      <td>{'others': 0, 'Gtl': 1}</td>
+      <td>{'Gtl': 1, 'others': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3407,7 +3407,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'SawyerW': 13, 'BrkSide': 4, 'NoRidge': 25, '...</td>
+      <td>{'NPkVill': 10, 'Timber': 22, 'OldTown': 6, 'S...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3440,7 +3440,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>False</td>
-      <td>{'others': 0, '1Fam': 1}</td>
+      <td>{'1Fam': 1, 'others': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3572,7 +3572,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 3, 'Fa': 1, 'TA': 2, 'Ex': 4, 'Po': 0}</td>
+      <td>{'Gd': 3, 'Ex': 4, 'Fa': 1, 'TA': 2, 'Po': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3583,7 +3583,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 3, 'Fa': 1, 'TA': 2, 'Ex': 4, 'Po': 0}</td>
+      <td>{'Gd': 3, 'Ex': 4, 'Fa': 1, 'TA': 2, 'Po': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3605,7 +3605,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 4, 'Fa': 2, 'TA': 3, 'Ex': 5, 'NA': 0, ...</td>
+      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3660,7 +3660,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 3, 'NA': 0, 'TA': 2, 'Fa': 1, 'Ex': 4}</td>
+      <td>{'Gd': 3, 'TA': 2, 'Fa': 1, 'NA': 0, 'Ex': 4}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3682,7 +3682,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>False</td>
-      <td>{'others': 0, 'Typ': 1}</td>
+      <td>{'Typ': 1, 'others': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3704,7 +3704,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 4, 'Fa': 2, 'TA': 3, 'Ex': 5, 'NA': 0, ...</td>
+      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3737,7 +3737,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Unf': 1, 'NA': 0, 'RFn': 2, 'Fin': 3}</td>
+      <td>{'NA': 0, 'RFn': 2, 'Fin': 3, 'Unf': 1}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3770,7 +3770,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 4, 'Fa': 2, 'TA': 3, 'Ex': 5, 'NA': 0, ...</td>
+      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3781,7 +3781,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 4, 'Fa': 2, 'TA': 3, 'Ex': 5, 'NA': 0, ...</td>
+      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3792,7 +3792,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'N': 0, 'P': 1, 'Y': 2}</td>
+      <td>{'P': 1, 'Y': 2, 'N': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3869,7 +3869,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 2, 'NA': 0, 'Fa': 1, 'Ex': 3}</td>
+      <td>{'Gd': 2, 'Ex': 3, 'Fa': 1, 'NA': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -8267,7 +8267,7 @@ forest_confidence
 
 
 
-    97.709999999999994
+    97.659999999999997
 
 
 
@@ -8278,39 +8278,39 @@ print(importances)
 importance_rank = np.argsort(importances)[::-1]
 ```
 
-    [  8.90960013e-03   8.05872500e-03   1.76993051e-02   2.37237438e-02
-       1.97878141e-04   2.78918098e-05   1.90598176e-03   3.72848711e-02
-       3.21268603e-03   4.14002203e-02   7.04596791e-03   2.81881466e-02
-       2.32573163e-02   2.32607137e-03   2.04059267e-02   3.04470495e-02
-       2.54350371e-03   2.91516003e-02   3.22746285e-03   1.30426710e-02
-       3.77356677e-02   8.21855768e-04   1.22265021e-02   3.13070019e-03
-       2.71766481e-03   3.44219508e-02   2.12014165e-02   1.05116421e-03
-       4.46044436e-02   7.20580710e-03   1.77487396e-03   2.30523981e-02
-       8.24482113e-03   1.01488736e-02   1.37070449e-03   2.81659217e-02
-       2.50067801e-02   1.81566282e-03   1.91144065e-02   2.05435855e-02
-       2.52471840e-02   2.02116290e-02   3.31853904e-02   3.43834676e-02
-       4.52008588e-03   4.46069820e-03   3.06272483e-03   1.49215355e-02
-       1.69271349e-02   3.48549108e-03   6.87504913e-04   3.81041884e-03
-       2.08151284e-03   2.38540940e-03   9.06331381e-03   8.03924511e-04
-       6.35626241e-04   1.13910911e-03   4.76651127e-03   2.09039238e-03
-       7.08324587e-04   5.42061043e-03   1.28390687e-03   1.86520826e-03
-       9.81405529e-04   2.24146291e-03   2.24714567e-03   2.83022540e-03
-       2.06034699e-03   1.87047010e-03   3.77057465e-03   6.25580818e-03
-       1.71984999e-03   7.48722317e-03   7.42661336e-03   5.97655334e-04
-       2.93259271e-04   4.25992315e-03   8.37154744e-03   6.88444338e-03
-       4.23237589e-04   2.62426050e-03   7.99586493e-03   1.29847453e-02
-       7.22096534e-04   7.83434564e-03   6.68254538e-03   3.16969362e-03
-       2.71920536e-03   8.73891882e-04   8.06680840e-04   2.05180160e-03
-       1.12221500e-04   2.70129141e-03   2.64170211e-05   9.22462371e-05
-       7.13988157e-04   4.51328728e-05   7.04986716e-04   7.27081439e-03
-       5.17822686e-03   5.49457890e-04   1.80665861e-03   3.50459401e-03
-       8.05192024e-03   7.17404759e-04   1.00837424e-03   1.36697480e-03
-       4.82562549e-04   7.45741136e-04   2.18498278e-04   4.00234285e-04
-       1.92005989e-05   1.72738988e-04   4.79070122e-04   2.02249272e-05
-       1.18765494e-04   1.39911136e-03   3.70080718e-05   3.13702065e-03
-       2.39743940e-03   5.53456558e-05   2.22695782e-03   1.19841829e-03
-       1.10666429e-04   6.78574770e-04   6.47987343e-03   2.68153804e-03
-       5.05093981e-04   7.15404070e-05   7.93188319e-04   2.99752183e-02]
+    [  9.08238584e-03   7.38077190e-03   2.03808525e-02   2.45156265e-02
+       2.15732023e-04   3.24297657e-05   1.85060534e-03   3.57883638e-02
+       3.61775609e-03   4.27241364e-02   7.14790525e-03   2.88890718e-02
+       2.27669961e-02   2.38781508e-03   1.89020461e-02   3.08112974e-02
+       2.54636788e-03   2.44950445e-02   3.56397841e-03   1.24236321e-02
+       3.62484629e-02   6.45402573e-04   1.34985149e-02   3.59247889e-03
+       2.83909155e-03   3.83560744e-02   2.23983154e-02   9.52171727e-04
+       4.31442171e-02   7.54769287e-03   1.64035127e-03   2.62724340e-02
+       8.69575602e-03   1.02028034e-02   1.47801484e-03   2.73027486e-02
+       2.35305145e-02   1.92692777e-03   1.87228595e-02   2.01454922e-02
+       2.46142455e-02   1.85048205e-02   2.82980038e-02   3.51909274e-02
+       5.46618989e-03   4.41241059e-03   2.90631770e-03   1.62309796e-02
+       1.76598082e-02   3.92118761e-03   7.23224429e-04   3.89595369e-03
+       2.51575237e-03   2.53804999e-03   9.01489923e-03   7.75817296e-04
+       6.60800384e-04   1.12462578e-03   4.99012800e-03   2.05463041e-03
+       6.02128541e-04   5.30733544e-03   1.36772367e-03   1.83295424e-03
+       1.04370243e-03   2.44477844e-03   2.09033514e-03   2.85425289e-03
+       2.09319908e-03   1.88334213e-03   3.51148284e-03   6.56900773e-03
+       1.56099678e-03   7.19248416e-03   6.90631687e-03   7.14790901e-04
+       3.12110485e-04   4.18406068e-03   7.52453811e-03   6.81648863e-03
+       3.43708282e-04   2.29503359e-03   8.59216703e-03   1.31529399e-02
+       8.10960474e-04   8.54225926e-03   9.04230906e-03   3.42233493e-03
+       2.93281239e-03   8.82752765e-04   7.67818968e-04   2.06077403e-03
+       1.17596765e-04   2.55716520e-03   2.35392846e-05   5.60608984e-05
+       6.90271493e-04   5.42189290e-05   5.46617233e-04   7.55858276e-03
+       5.50970485e-03   6.69268530e-04   1.91744940e-03   3.55752998e-03
+       6.61753668e-03   8.05799487e-04   1.00142392e-03   1.20872162e-03
+       4.72288155e-04   6.44898719e-04   2.26969625e-04   4.56817773e-04
+       1.43611433e-05   1.71568466e-04   4.91435867e-04   3.30402809e-05
+       8.47031670e-05   1.50873608e-03   1.71530483e-05   2.99425681e-03
+       2.34350501e-03   4.08666577e-05   2.51668787e-03   1.27582372e-03
+       1.28582852e-04   7.51684434e-04   6.98529481e-03   2.79557491e-03
+       4.95025920e-04   8.56644530e-05   1.05440225e-03   2.76993595e-02]
 
 
 
@@ -8332,7 +8332,7 @@ sns.barplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1553b2048>
+    <matplotlib.axes._subplots.AxesSubplot at 0x124c35080>
 
 
 
@@ -8365,7 +8365,7 @@ x_std_selected.shape, x_test_std_selected.shape
 
 
 
-    ((1460, 37), (1459, 37))
+    ((1460, 35), (1459, 35))
 
 
 
@@ -8392,7 +8392,7 @@ forest_selected_confidence
 
 
 
-    98.230000000000004
+    98.239999999999995
 
 
 
@@ -8442,7 +8442,7 @@ forest_f_confidence
 
 
 
-    98.25
+    98.209999999999994
 
 
 
@@ -8498,7 +8498,7 @@ forest_pca_confidence
 
 
 
-    97.560000000000002
+    97.5
 
 
 
@@ -8516,7 +8516,7 @@ The submission scored 0.17882
 ```python
 models = pd.DataFrame({
     'Model': ['Random Forest Regressor', 'Random Forest Regressor', 'Random Forest Regressor', 'Random Forest Regressor'],
-    'Feature Engineering': ['None', 'SelectFromModel', 'f_regression (SBS)', 'PCA'],
+    'Feature Engineering': ['None', 'Selection based on model', 'Forward selection algorithm', 'PCA'],
     'Confidence': [forest_confidence, forest_selected_confidence, forest_f_confidence, forest_pca_confidence],
     'Score': [0.86628, 0.15558, 0.15886, 0.17882]
 })
@@ -8542,29 +8542,29 @@ models.sort_values(by='Score', ascending=True)
     <tr>
       <th>1</th>
       <td>Random Forest Regressor</td>
-      <td>SelectFromModel</td>
-      <td>98.23</td>
+      <td>Selection based on model</td>
+      <td>98.24</td>
       <td>0.15558</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Random Forest Regressor</td>
-      <td>f_regression (SBS)</td>
-      <td>98.25</td>
+      <td>Forward selection algorithm</td>
+      <td>98.21</td>
       <td>0.15886</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Random Forest Regressor</td>
       <td>PCA</td>
-      <td>97.56</td>
+      <td>97.50</td>
       <td>0.17882</td>
     </tr>
     <tr>
       <th>0</th>
       <td>Random Forest Regressor</td>
       <td>None</td>
-      <td>97.71</td>
+      <td>97.66</td>
       <td>0.86628</td>
     </tr>
   </tbody>
@@ -8572,3 +8572,8 @@ models.sort_values(by='Score', ascending=True)
 </div>
 
 
+
+
+```python
+
+```
