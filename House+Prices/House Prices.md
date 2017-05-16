@@ -1105,7 +1105,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11b6afac8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12c5a2f60>
 
 
 
@@ -1143,7 +1143,7 @@ sns.factorplot(
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x11b4b4b00>
+    <seaborn.axisgrid.FacetGrid at 0x12c568780>
 
 
 
@@ -1184,7 +1184,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11b9f3208>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12d6d73c8>
 
 
 
@@ -1217,7 +1217,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11b7e3eb8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12c75be10>
 
 
 
@@ -1250,7 +1250,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11bcd1b00>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12db19a58>
 
 
 
@@ -1284,7 +1284,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11f527160>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12dc099b0>
 
 
 
@@ -1326,7 +1326,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11f71e1d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12dce4240>
 
 
 
@@ -1373,7 +1373,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11f91f048>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12cecff28>
 
 
 
@@ -1427,7 +1427,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11fb3af98>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12b185e80>
 
 
 
@@ -1500,7 +1500,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x11fe9a198>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12de9c320>
 
 
 
@@ -1527,7 +1527,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1200df320>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12e0f6ef0>
 
 
 
@@ -1561,7 +1561,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x12032de48>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12e34b828>
 
 
 
@@ -1616,7 +1616,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x120550860>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12e56f208>
 
 
 
@@ -1663,7 +1663,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1207a2c18>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12e7c15c0>
 
 
 
@@ -1710,7 +1710,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1209b0cc0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12e9ec9e8>
 
 
 
@@ -1765,7 +1765,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x120c00400>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12ec3c0b8>
 
 
 
@@ -1799,7 +1799,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x120ebbac8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12edda8d0>
 
 
 
@@ -1925,7 +1925,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1210cb860>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12f1047b8>
 
 
 
@@ -1952,7 +1952,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1212b0128>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12f310908>
 
 
 
@@ -1996,7 +1996,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1214d1438>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12f52b2b0>
 
 
 
@@ -2043,7 +2043,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1216ef6d8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12f750550>
 
 
 
@@ -2070,7 +2070,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1219034e0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12f965358>
 
 
 
@@ -2125,7 +2125,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x121b0cb38>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12fb699b0>
 
 
 
@@ -2177,7 +2177,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x121d19da0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12fd76be0>
 
 
 
@@ -2204,7 +2204,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x121f3e898>
+    <matplotlib.axes._subplots.AxesSubplot at 0x12ff9d6a0>
 
 
 
@@ -2274,7 +2274,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x12202d2e8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1301c7ac8>
 
 
 
@@ -2325,7 +2325,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x122370128>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1303fe668>
 
 
 
@@ -2384,7 +2384,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x12258e080>
+    <matplotlib.axes._subplots.AxesSubplot at 0x130616a58>
 
 
 
@@ -2435,7 +2435,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1227ae898>
+    <matplotlib.axes._subplots.AxesSubplot at 0x130837278>
 
 
 
@@ -2462,7 +2462,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1229c6d30>
+    <matplotlib.axes._subplots.AxesSubplot at 0x130a50710>
 
 
 
@@ -2495,7 +2495,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x122aad400>
+    <matplotlib.axes._subplots.AxesSubplot at 0x130ab43c8>
 
 
 
@@ -2550,7 +2550,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x122dddb70>
+    <matplotlib.axes._subplots.AxesSubplot at 0x130ddcd68>
 
 
 
@@ -2601,7 +2601,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x12301e048>
+    <matplotlib.axes._subplots.AxesSubplot at 0x13101c4a8>
 
 
 
@@ -2656,7 +2656,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x123218b00>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1312417f0>
 
 
 
@@ -2707,7 +2707,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x123440438>
+    <matplotlib.axes._subplots.AxesSubplot at 0x13146a048>
 
 
 
@@ -2776,7 +2776,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x12363f0b8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x131666c18>
 
 
 
@@ -2803,7 +2803,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x123859668>
+    <matplotlib.axes._subplots.AxesSubplot at 0x131883208>
 
 
 
@@ -2860,7 +2860,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x123a6ceb8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x131a97a58>
 
 
 
@@ -2902,7 +2902,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x123c74128>
+    <matplotlib.axes._subplots.AxesSubplot at 0x131c99c88>
 
 
 
@@ -2954,7 +2954,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x123e78e48>
+    <matplotlib.axes._subplots.AxesSubplot at 0x131ea19e8>
 
 
 
@@ -2988,7 +2988,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1240888d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1320b2470>
 
 
 
@@ -3023,7 +3023,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x124296b38>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1322c0470>
 
 
 
@@ -3071,7 +3071,7 @@ sns.countplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x1244f7cc0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x132520898>
 
 
 
@@ -3297,7 +3297,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'RM': 1, 'FV': 4, 'RH': 2, 'RL': 3, 'C (all)'...</td>
+      <td>{'RL': 3, 'RM': 1, 'FV': 4, 'RH': 2, 'C (all)'...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3374,7 +3374,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'AllPub': 1, 'NoSeWa': 0}</td>
+      <td>{'NoSeWa': 0, 'AllPub': 1}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3396,7 +3396,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>False</td>
-      <td>{'Gtl': 1, 'others': 0}</td>
+      <td>{'others': 0, 'Gtl': 1}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3407,7 +3407,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'NPkVill': 10, 'Timber': 22, 'OldTown': 6, 'S...</td>
+      <td>{'NPkVill': 10, 'BrDale': 3, 'NridgHt': 24, 'T...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3572,7 +3572,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 3, 'Ex': 4, 'Fa': 1, 'TA': 2, 'Po': 0}</td>
+      <td>{'Fa': 1, 'Gd': 3, 'TA': 2, 'Ex': 4, 'Po': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3583,7 +3583,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 3, 'Ex': 4, 'Fa': 1, 'TA': 2, 'Po': 0}</td>
+      <td>{'Fa': 1, 'Gd': 3, 'TA': 2, 'Ex': 4, 'Po': 0}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3605,7 +3605,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
+      <td>{'Fa': 2, 'Gd': 4, 'Po': 1, 'Ex': 5, 'NA': 0, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3660,7 +3660,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 3, 'TA': 2, 'Fa': 1, 'NA': 0, 'Ex': 4}</td>
+      <td>{'Fa': 1, 'Ex': 4, 'Gd': 3, 'NA': 0, 'TA': 2}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3704,7 +3704,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
+      <td>{'Fa': 2, 'Gd': 4, 'Po': 1, 'Ex': 5, 'NA': 0, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3737,7 +3737,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'NA': 0, 'RFn': 2, 'Fin': 3, 'Unf': 1}</td>
+      <td>{'Unf': 1, 'RFn': 2, 'NA': 0, 'Fin': 3}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3770,7 +3770,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
+      <td>{'Fa': 2, 'Gd': 4, 'Po': 1, 'Ex': 5, 'NA': 0, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3781,7 +3781,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Ex': 5, 'Fa': 2, 'TA': 3, 'NA': 0, 'Gd': 4, ...</td>
+      <td>{'Fa': 2, 'Gd': 4, 'Po': 1, 'Ex': 5, 'NA': 0, ...</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3792,7 +3792,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'P': 1, 'Y': 2, 'N': 0}</td>
+      <td>{'N': 0, 'P': 1, 'Y': 2}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -3869,7 +3869,7 @@ summerize
       <td>False</td>
       <td>True</td>
       <td>True</td>
-      <td>{'Gd': 2, 'Ex': 3, 'Fa': 1, 'NA': 0}</td>
+      <td>{'Fa': 1, 'Gd': 2, 'NA': 0, 'Ex': 3}</td>
       <td>False</td>
     </tr>
     <tr>
@@ -8267,7 +8267,7 @@ forest_confidence
 
 
 
-    97.659999999999997
+    97.650000000000006
 
 
 
@@ -8278,39 +8278,39 @@ print(importances)
 importance_rank = np.argsort(importances)[::-1]
 ```
 
-    [  9.08238584e-03   7.38077190e-03   2.03808525e-02   2.45156265e-02
-       2.15732023e-04   3.24297657e-05   1.85060534e-03   3.57883638e-02
-       3.61775609e-03   4.27241364e-02   7.14790525e-03   2.88890718e-02
-       2.27669961e-02   2.38781508e-03   1.89020461e-02   3.08112974e-02
-       2.54636788e-03   2.44950445e-02   3.56397841e-03   1.24236321e-02
-       3.62484629e-02   6.45402573e-04   1.34985149e-02   3.59247889e-03
-       2.83909155e-03   3.83560744e-02   2.23983154e-02   9.52171727e-04
-       4.31442171e-02   7.54769287e-03   1.64035127e-03   2.62724340e-02
-       8.69575602e-03   1.02028034e-02   1.47801484e-03   2.73027486e-02
-       2.35305145e-02   1.92692777e-03   1.87228595e-02   2.01454922e-02
-       2.46142455e-02   1.85048205e-02   2.82980038e-02   3.51909274e-02
-       5.46618989e-03   4.41241059e-03   2.90631770e-03   1.62309796e-02
-       1.76598082e-02   3.92118761e-03   7.23224429e-04   3.89595369e-03
-       2.51575237e-03   2.53804999e-03   9.01489923e-03   7.75817296e-04
-       6.60800384e-04   1.12462578e-03   4.99012800e-03   2.05463041e-03
-       6.02128541e-04   5.30733544e-03   1.36772367e-03   1.83295424e-03
-       1.04370243e-03   2.44477844e-03   2.09033514e-03   2.85425289e-03
-       2.09319908e-03   1.88334213e-03   3.51148284e-03   6.56900773e-03
-       1.56099678e-03   7.19248416e-03   6.90631687e-03   7.14790901e-04
-       3.12110485e-04   4.18406068e-03   7.52453811e-03   6.81648863e-03
-       3.43708282e-04   2.29503359e-03   8.59216703e-03   1.31529399e-02
-       8.10960474e-04   8.54225926e-03   9.04230906e-03   3.42233493e-03
-       2.93281239e-03   8.82752765e-04   7.67818968e-04   2.06077403e-03
-       1.17596765e-04   2.55716520e-03   2.35392846e-05   5.60608984e-05
-       6.90271493e-04   5.42189290e-05   5.46617233e-04   7.55858276e-03
-       5.50970485e-03   6.69268530e-04   1.91744940e-03   3.55752998e-03
-       6.61753668e-03   8.05799487e-04   1.00142392e-03   1.20872162e-03
-       4.72288155e-04   6.44898719e-04   2.26969625e-04   4.56817773e-04
-       1.43611433e-05   1.71568466e-04   4.91435867e-04   3.30402809e-05
-       8.47031670e-05   1.50873608e-03   1.71530483e-05   2.99425681e-03
-       2.34350501e-03   4.08666577e-05   2.51668787e-03   1.27582372e-03
-       1.28582852e-04   7.51684434e-04   6.98529481e-03   2.79557491e-03
-       4.95025920e-04   8.56644530e-05   1.05440225e-03   2.76993595e-02]
+    [  8.86460186e-03   8.34128758e-03   1.96235058e-02   2.40668427e-02
+       1.74492134e-04   1.91542609e-05   1.86104049e-03   3.74100474e-02
+       3.57955239e-03   4.22695686e-02   7.85166373e-03   2.38958385e-02
+       2.32195817e-02   2.80645356e-03   2.01039026e-02   2.80888252e-02
+       2.58390274e-03   2.80757294e-02   3.54407503e-03   1.22374402e-02
+       3.82863785e-02   7.83259070e-04   1.29938051e-02   3.77887611e-03
+       3.17280788e-03   3.53760994e-02   2.32381214e-02   1.10238652e-03
+       4.45155761e-02   6.80740771e-03   1.60033751e-03   2.36103475e-02
+       7.31546138e-03   1.01095482e-02   1.51334656e-03   2.82545770e-02
+       2.43335598e-02   1.56105378e-03   1.67958896e-02   2.37447233e-02
+       2.35737010e-02   2.05116795e-02   3.27228764e-02   3.21347502e-02
+       4.87244840e-03   4.44294369e-03   2.47401377e-03   1.32575887e-02
+       1.94681146e-02   3.52511094e-03   6.52812077e-04   3.72985219e-03
+       2.55170386e-03   2.56106421e-03   9.67159241e-03   8.68282228e-04
+       5.86294851e-04   1.31761751e-03   4.74538555e-03   1.56099811e-03
+       6.55810563e-04   4.94734703e-03   1.34919705e-03   1.96583912e-03
+       1.11569586e-03   2.32209428e-03   2.44806149e-03   2.85423442e-03
+       2.08347039e-03   1.76266620e-03   3.73035215e-03   6.50472446e-03
+       1.77065878e-03   7.10435589e-03   6.74048364e-03   6.31709268e-04
+       2.84609052e-04   3.86256473e-03   8.01023524e-03   5.69212604e-03
+       3.85073715e-04   2.51907911e-03   8.99382593e-03   1.55439098e-02
+       6.70888947e-04   7.46265367e-03   7.40901149e-03   3.27857887e-03
+       2.97439569e-03   7.98224285e-04   7.83466539e-04   2.42984537e-03
+       1.12991441e-04   2.90614452e-03   2.17741796e-05   4.60240408e-05
+       6.76772040e-04   3.52187723e-05   5.65763062e-04   7.79463046e-03
+       4.47439253e-03   5.74306207e-04   1.96040788e-03   4.13819366e-03
+       6.70293051e-03   6.56364386e-04   1.10144704e-03   1.29324255e-03
+       4.80118163e-04   6.65451975e-04   2.05861331e-04   4.32662364e-04
+       2.08355018e-05   1.89809068e-04   5.43560383e-04   2.29304672e-05
+       1.16665710e-04   1.46742100e-03   1.61047873e-05   2.73663346e-03
+       2.51221598e-03   3.78555925e-05   2.22250282e-03   1.31730023e-03
+       1.31367332e-04   6.92240801e-04   6.16991864e-03   2.49115142e-03
+       4.95511372e-04   8.27359279e-05   8.53042643e-04   3.12104123e-02]
 
 
 
@@ -8332,7 +8332,7 @@ sns.barplot(
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x124c35080>
+    <matplotlib.axes._subplots.AxesSubplot at 0x13274c0b8>
 
 
 
@@ -8365,9 +8365,14 @@ x_std_selected.shape, x_test_std_selected.shape
 
 
 
-    ((1460, 35), (1459, 35))
+    ((1460, 36), (1459, 36))
 
 
+
+
+```python
+features_select_from_model = x.columns[model.get_support()]
+```
 
 Select 36 out of 132 features
 
@@ -8404,7 +8409,7 @@ submission.to_csv('submission.csv', index=False)
 
 The submission scored 0.15558, which is an improvement of the previous score of 0.86628, great!
 
-### Feature Selection using f_regression (similar to Sequential Backward Selection (SBS))
+### Feature Selection using Forward selection algorithm	
 
 
 ```python
@@ -8442,8 +8447,115 @@ forest_f_confidence
 
 
 
-    98.209999999999994
+    98.200000000000003
 
+
+
+
+```python
+features_forward_selection = x.columns[f.get_support()]
+print("Features selected from selectFromModel")
+print(features_select_from_model)
+importances = forest_reg_selected.feature_importances_
+importance_rank = np.argsort(importances)[::-1]
+fig, ax1 = plt.subplots(figsize=(30, 5))
+sns.barplot(
+    x='Features',
+    y='Importance',
+    data=pd.DataFrame(
+        {
+            'Features': list(x.columns[model.get_support()]),
+            'Importance': [importances[r] for r in importance_rank]
+        }
+    ),
+    ax=ax1
+)
+```
+
+    Features selected from selectFromModel
+    Index(['MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Neighborhood',
+           'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea',
+           'ExterQual', 'BsmtQual', 'BsmtExposure', 'TotalBsmtSF', 'HeatingQC',
+           '1stFlrSF', '2ndFlrSF', 'GrLivArea', 'FullBath', 'BedroomAbvGr',
+           'KitchenQual', 'TotRmsAbvGrd', 'Fireplaces', 'FireplaceQu',
+           'GarageYrBlt', 'GarageFinish', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+           'OpenPorchSF', 'YrSold', 'MasVnrType_None', 'Foundation_CBlock',
+           'Foundation_PConc', 'SaleType_New', 'BsmtFinScore'],
+          dtype='object')
+
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x1338147f0>
+
+
+
+
+![png](output_199_2.png)
+
+
+
+```python
+print("Features selected from forward selection algorithem")
+print(features_forward_selection)
+importances = forest_reg_f.feature_importances_
+importance_rank = np.argsort(importances)[::-1]
+fig, ax1 = plt.subplots(figsize=(30, 5))
+sns.barplot(
+    x='Features',
+    y='Importance',
+    data=pd.DataFrame(
+        {
+            'Features': list(x.columns[f.get_support()]),
+            'Importance': [importances[r] for r in importance_rank]
+        }
+    ),
+    ax=ax1
+)
+```
+
+    Features selected from forward selection algorithem
+    Index(['MSZoning', 'LotFrontage', 'Neighborhood', 'OverallQual', 'YearBuilt',
+           'YearRemodAdd', 'MasVnrArea', 'ExterQual', 'BsmtQual', 'BsmtExposure',
+           'TotalBsmtSF', 'HeatingQC', '1stFlrSF', '2ndFlrSF', 'GrLivArea',
+           'FullBath', 'HalfBath', 'KitchenQual', 'TotRmsAbvGrd', 'Fireplaces',
+           'FireplaceQu', 'GarageFinish', 'GarageCars', 'GarageArea', 'WoodDeckSF',
+           'OpenPorchSF', 'MasVnrType_None', 'MasVnrType_Stone',
+           'Foundation_CBlock', 'Foundation_PConc', 'GarageType_Attchd',
+           'GarageType_Detchd', 'SaleType_New', 'SaleCondition_Partial',
+           'Exterior_VinylSd', 'BsmtFinScore'],
+          dtype='object')
+
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x133e2a7b8>
+
+
+
+
+![png](output_200_2.png)
+
+
+
+```python
+intersection = np.intersect1d(features_select_from_model, features_forward_selection)
+print("Features selected from both methods")
+print(intersection)
+print(intersection.shape)
+```
+
+    Features selected from both methods
+    ['1stFlrSF' '2ndFlrSF' 'BsmtExposure' 'BsmtFinScore' 'BsmtQual' 'ExterQual'
+     'FireplaceQu' 'Fireplaces' 'Foundation_CBlock' 'Foundation_PConc'
+     'FullBath' 'GarageArea' 'GarageCars' 'GarageFinish' 'GrLivArea'
+     'HeatingQC' 'KitchenQual' 'LotFrontage' 'MSZoning' 'MasVnrArea'
+     'MasVnrType_None' 'Neighborhood' 'OpenPorchSF' 'OverallQual'
+     'SaleType_New' 'TotRmsAbvGrd' 'TotalBsmtSF' 'WoodDeckSF' 'YearBuilt'
+     'YearRemodAdd']
+    (30,)
 
 
 
@@ -8498,7 +8610,7 @@ forest_pca_confidence
 
 
 
-    97.5
+    97.510000000000005
 
 
 
@@ -8550,21 +8662,21 @@ models.sort_values(by='Score', ascending=True)
       <th>2</th>
       <td>Random Forest Regressor</td>
       <td>Forward selection algorithm</td>
-      <td>98.21</td>
+      <td>98.20</td>
       <td>0.15886</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Random Forest Regressor</td>
       <td>PCA</td>
-      <td>97.50</td>
+      <td>97.51</td>
       <td>0.17882</td>
     </tr>
     <tr>
       <th>0</th>
       <td>Random Forest Regressor</td>
       <td>None</td>
-      <td>97.66</td>
+      <td>97.65</td>
       <td>0.86628</td>
     </tr>
   </tbody>
